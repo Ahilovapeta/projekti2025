@@ -1,0 +1,204 @@
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.exe.config
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.exe
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.pdb
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.dll
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.xml
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.AssemblyReference.cache
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formAdministratorPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formDodajFilm.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formFilm.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formFilmovi.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIndividualniKorisnikPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniKorisnika.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniNovost.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formNovosti.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPrijava.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPrva.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formRegistracija.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formRoditeljskaZastita.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeFilmovima.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniFilm.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeKorisnicima.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeNovostima.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formZaposlenikPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.Properties.Resources.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.GenerateResource.cache
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.CoreCompileInputs.cache
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMas.ABA07529.Up2Date
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.exe
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.pdb
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.exe.config
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPovijestGledanja.resources
+C:\Users\karlo\Desktop\PI projekt\pi24-rkoncevsk-pkordic-kmarcetic-master\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPreporukaFilmova.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.exe.config
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.exe
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.pdb
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.dll
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.xml
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.AssemblyReference.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.exe.config
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formAdministratorPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formDodajFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formFilmovi.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIndividualniKorisnikPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniKorisnika.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniNovost.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formNovosti.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPovijestGledanja.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPreporukaFilmova.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPrijava.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPrva.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formRegistracija.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formRoditeljskaZastita.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeFilmovima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeKorisnicima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeNovostima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formZaposlenikPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.Properties.Resources.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.GenerateResource.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.CoreCompileInputs.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMas.ABA07529.Up2Date
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.exe
+C:\Users\karlo\Desktop\PI projekt\PI projekt - backup 21.9\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.pdb
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.exe.config
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.exe
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.pdb
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.dll
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.xml
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.AssemblyReference.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.exe.config
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formAdministratorPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formDodajFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formFilmovi.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIndividualniKorisnikPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniKorisnika.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniNovost.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formNovosti.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPovijestGledanja.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPreporukaFilmova.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPrijava.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPrva.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formRegistracija.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formRoditeljskaZastita.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeFilmovima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeKorisnicima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeNovostima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formZaposlenikPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.Properties.Resources.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.GenerateResource.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.CoreCompileInputs.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMas.ABA07529.Up2Date
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.exe
+C:\Users\karlo\Desktop\PI projekt\PI projekt -kloniranje\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.pdb
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.exe.config
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.exe
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.pdb
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.dll
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.xml
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.AssemblyReference.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.exe.config
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formAdministratorPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formDodajFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formFilmovi.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIndividualniKorisnikPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniKorisnika.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniNovost.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formNovosti.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPovijestGledanja.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPreporukaFilmova.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPrijava.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPrva.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formRegistracija.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formRoditeljskaZastita.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeFilmovima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeKorisnicima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeNovostima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formZaposlenikPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.Properties.Resources.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.GenerateResource.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.CoreCompileInputs.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMas.ABA07529.Up2Date
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.exe
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.pdb
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.exe.config
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.exe
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\VideoMaster.pdb
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.dll
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.xml
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.AssemblyReference.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.exe.config
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formAdministratorPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formDodajFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formFilmovi.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIndividualniKorisnikPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniKorisnika.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniNovost.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formNovosti.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPovijestGledanja.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPreporukaFilmova.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPrijava.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formPrva.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formRegistracija.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formRoditeljskaZastita.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeFilmovima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeKorisnicima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeNovostima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.formZaposlenikPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.Properties.Resources.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.GenerateResource.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.csproj.CoreCompileInputs.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMas.ABA07529.Up2Date
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.exe
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master\Software\VideoMaster\obj\Debug\VideoMaster.pdb
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\bin\Debug\VideoMaster.exe.config
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\bin\Debug\VideoMaster.exe
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\bin\Debug\VideoMaster.pdb
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\bin\Debug\EntityFramework.dll
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\bin\Debug\EntityFramework.xml
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.csproj.AssemblyReference.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.exe.config
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formAdministratorPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formDodajFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formFilmovi.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formIndividualniKorisnikPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniKorisnika.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniNovost.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formNovosti.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formPovijestGledanja.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formPreporukaFilmova.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formPrijava.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formPrva.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formRegistracija.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formRoditeljskaZastita.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeFilmovima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formIzmjeniFilm.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeKorisnicima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formUpravljanjeNovostima.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.formZaposlenikPocetna.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.Properties.Resources.resources
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.csproj.GenerateResource.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.csproj.CoreCompileInputs.cache
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMas.ABA07529.Up2Date
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.exe
+C:\Users\karlo\Desktop\PI projekt\PI projekt -GOTOVO bez komentara i sa html\pi24-rkoncevsk-pkordic-kmarcetic-master GOTOVO\Software\VideoMaster\obj\Debug\VideoMaster.pdb

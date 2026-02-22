@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b7778b3d5bd94e4c9c58d999ba2e4b00" Name="Diagram1" ZoomLevel="97">
+        <EntityTypeShape EntityType="PI2324_02_DBModel.DobnoOgranicenje" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PI2324_02_DBModel.Film" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PI2324_02_DBModel.Gleda" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="PI2324_02_DBModel.Glumac" Width="1.5" PointX="5.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PI2324_02_DBModel.Korisnik" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PI2324_02_DBModel.Novost" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PI2324_02_DBModel.Redatelj" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PI2324_02_DBModel.RoditeljskaZastita" Width="2.25" PointX="0.5" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PI2324_02_DBModel.Uloga" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PI2324_02_DBModel.Zanr" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="PI2324_02_DBModel.FK_Film_DobnoOgranicenje" ManuallyRouted="false" />
+        <AssociationConnector Association="PI2324_02_DBModel.FK_Film_Redatelj" ManuallyRouted="false" />
+        <AssociationConnector Association="PI2324_02_DBModel.FK_Film_Zanr" ManuallyRouted="false" />
+        <AssociationConnector Association="PI2324_02_DBModel.FK_Gleda_Film" ManuallyRouted="false" />
+        <AssociationConnector Association="PI2324_02_DBModel.FK_Novost_Film" ManuallyRouted="false" />
+        <AssociationConnector Association="PI2324_02_DBModel.FK_Gleda_Korisnik" ManuallyRouted="false" />
+        <AssociationConnector Association="PI2324_02_DBModel.FK_Korisnik_RoditeljskaZastita" ManuallyRouted="false" />
+        <AssociationConnector Association="PI2324_02_DBModel.FK_Uloga_Korisnik" ManuallyRouted="false" />
+        <AssociationConnector Association="PI2324_02_DBModel.Glumi" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
