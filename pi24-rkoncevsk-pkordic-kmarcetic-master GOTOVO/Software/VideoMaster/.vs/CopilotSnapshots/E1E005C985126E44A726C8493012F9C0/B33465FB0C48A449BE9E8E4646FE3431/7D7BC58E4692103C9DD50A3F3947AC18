@@ -1,0 +1,92 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+
+namespace VideoMaster
+{
+    public partial class formPovijestGledanja : Form
+    {
+        private PI2324_02_DBEntities DB_Entities;
+        private Korisnik OdabraniKorisnik;
+
+        public formPovijestGledanja(Korisnik korisnik)
+        {
+            InitializeComponent();
+            DB_Entities = new PI2324_02_DBEntities();
+            OdabraniKorisnik = korisnik;
+            UcitajPovijest();
+            UcitajStatistiku();
+        }
+
+        private void UcitajPovijest()
+        {
+            var lista = new List<FilmInfo>();
+            foreach (var gleda in DB_Entities.Gleda)
+            {
+                if (gleda.ID_Korisnik == OdabraniKorisnik.ID_Korisnik)
+                {
+                    var info = new FilmInfo
+                    {
+                        ID_Film = gleda.Film != null ? gleda.Film.ID_Film : 0,
+                        Naziv = gleda.Film != null ? gleda.Film.Naziv : "",
+                        Zanr = gleda.Film != null && gleda.Film.Zanr != null ? gleda.Film.Zanr.Naziv : "",
+                        ProsjecnaOcjena = gleda.Ocjena.HasValue ? gleda.Ocjena.Value : 0,
+                        Adresa_url = gleda.Film != null ? gleda.Film.Adresa_url : "",
+                        Datum_izdavanja = gleda.Datum_gledanja, // koristi datum gledanja kao datum
+                        Trajanje = gleda.Film != null ? gleda.Film.Trajanje : 0,
+                        Redatelj = gleda.Film != null && gleda.Film.Redatelj != null ? gleda.Film.Redatelj.Ime + " " + gleda.Film.Redatelj.Prezime : "",
+                        DobnoOgranicenje = gleda.Film != null && gleda.Film.DobnoOgranicenje != null ? gleda.Film.DobnoOgranicenje.Naziv : ""
+                    };
+                    lista.Add(info);
+                }
+            }
+            dgvPovijest.DataSource = lista;
+        }
+
+        private void UcitajStatistiku()
+        {
+            var zanrBrojac = new Dictionary<string, int>();
+            var filmBrojac = new Dictionary<string, int>();
+            foreach (var gleda in DB_Entities.Gleda)
+            {
+                if (gleda.ID_Korisnik == OdabraniKorisnik.ID_Korisnik)
+                {
+                    if (gleda.Film != null && gleda.Film.Zanr != null)
+                    {
+                        string zanr = gleda.Film.Zanr.Naziv;
+                        if (!zanrBrojac.ContainsKey(zanr)) zanrBrojac[zanr] = 0;
+                        zanrBrojac[zanr]++;
+                    }
+                    if (gleda.Film != null)
+                    {
+                        string film = gleda.Film.Naziv;
+                        if (!filmBrojac.ContainsKey(film)) filmBrojac[film] = 0;
+                        filmBrojac[film]++;
+                    }
+                }
+            }
+            string najzanr = "Nema podataka";
+            int maxZanr = 0;
+            foreach (var kvp in zanrBrojac)
+            {
+                if (kvp.Value > maxZanr)
+                {
+                    maxZanr = kvp.Value;
+                    najzanr = kvp.Key + " (" + kvp.Value + ")";
+                }
+            }
+            string najfilm = "Nema podataka";
+            int maxFilm = 0;
+            foreach (var kvp in filmBrojac)
+            {
+                if (kvp.Value > maxFilm)
+                {
+                    maxFilm = kvp.Value;
+                    najfilm = kvp.Key + " (" + kvp.Value + ")";
+                }
+            }
+            lblNajzanr.Text = "Najgledaniji žanr: " + najzanr;
+            lblNajfilm.Text = "Najgledaniji film: " + najfilm;
+        }
+    }
+}

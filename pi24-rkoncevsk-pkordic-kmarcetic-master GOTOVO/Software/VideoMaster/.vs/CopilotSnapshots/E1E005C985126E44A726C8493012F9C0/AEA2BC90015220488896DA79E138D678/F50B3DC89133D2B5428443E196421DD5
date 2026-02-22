@@ -1,0 +1,163 @@
+﻿using System;
+using System.Linq;
+using System.Windows.Forms;
+using System.Collections.Generic;
+using System.Data.Entity.Migrations.Model;
+using System.IO;
+
+namespace VideoMaster
+{
+    public partial class formPreporukaFilmova : Form
+    {
+        private PI2324_02_DBEntities DB_Entities;
+        private Korisnik OdabraniKorisnik;
+        private List<int> preskoceniFilmovi = new List<int>();
+        private List<int> prioritetZanrovi = new List<int>();
+        private int trenutniZanrIndex = 0;
+        private HelpProvider helpProvider1;
+
+        public formPreporukaFilmova(Korisnik korisnik)
+        {
+            InitializeComponent();
+            DB_Entities = new PI2324_02_DBEntities();
+            OdabraniKorisnik = korisnik;
+            // Inicijalizacija HelpProvider-a
+            helpProvider1 = new HelpProvider();
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string projectDirectory = Directory.GetParent(baseDirectory).Parent.Parent.FullName;
+            string documentationPath = Path.Combine(projectDirectory, "F1", "formPreporukaFilmova.html");
+            if (!File.Exists(documentationPath))
+            {
+                MessageBox.Show("Datoteka s dokumentacijom ne postoji: " + documentationPath);
+            }
+            else
+            {
+                helpProvider1.HelpNamespace = documentationPath;
+                helpProvider1.SetHelpNavigator(this, HelpNavigator.TableOfContents);
+            }
+            UcitajPrioriteteZanrova();
+            PrikaziPreporukeZaTrenutniZanr();
+        }
+
+        private void UcitajPrioriteteZanrova()
+        {
+            List<int> zanrovi = new List<int>();
+            //Ovo je broj koliko puta je korisnik gledao neki žanr
+            List<int> brojevi = new List<int>();
+            //Gleda je stupac koji sprema svako emitiranje nekog filma i u sebe sprema datum_gledanja, ocjenu komentar koji korisnik je gledao koji film
+            foreach (var gleda in DB_Entities.Gleda)
+            {
+                if (gleda.ID_Korisnik == OdabraniKorisnik.ID_Korisnik && gleda.Film != null && gleda.Film.Zanr != null)
+                {
+                    int idZanr = gleda.Film.ID_Zanr;
+                    //ovdje se provjerava jel je korisnik ve? prije gledao taj žanr
+                    int index = zanrovi.IndexOf(idZanr);
+                    //ako je, ulazi u ovaj if
+                    if (index >= 0)
+                    {
+                        //dodaje jos jedno gledanje tog žanra
+                        brojevi[index]++;
+                    }
+                    //ako nije (index = -1), dodaje novi red u listu zanrovi i brojevi
+                    else
+                    {
+                        zanrovi.Add(idZanr);
+                        //ako je isti taj zanr, dodaje broj 1 sto ce promijenit logiku ifa iznad i onda ?e nadalje ulazit u taj if
+                        brojevi.Add(1);
+                    }
+                }
+            }
+            //slaže listu od najgledanijeg žanra do najmanje gledanog
+            prioritetZanrovi = zanrovi.OrderByDescending(z => brojevi[zanrovi.IndexOf(z)]).ToList();
+            //ovo zna?i da gleda najgledaniji žanr (iznos = 0) jer je prvi u toj listi
+            trenutniZanrIndex = 0;
+        }
+        
+        private void PrikaziPreporukeZaTrenutniZanr()
+        {
+            //prikazuje listu filmova za taj žanr koji je trenutniZanrIndex
+            //ako nema nijedan film u tom žanru, ide na sljede?i zato je while inace bi bio if
+            //da ne bi presko?io broj zanrova koje je korisnik gledao, jer bi išlo iznad broja žanrova koje je gledao, izbjegava grešku
+            while (trenutniZanrIndex < prioritetZanrovi.Count)
+            {
+                //dohva?a trenutniZanrIndex, kad se promijeni, onda ide na idu?i žanr po prioritetu 
+                int trenutniZanrId = prioritetZanrovi[trenutniZanrIndex];
+                //instancira se preporuceniFilmovi
+                List<object> preporuceniFilmovi = new List<object>();
+                //u svim filmovima traži film s tim žanrom koji se poklapa sa trenutniZanrIndex
+                foreach (var film in DB_Entities.Film)
+                {
+                    //ovo je glavna logika, ako ve? postoji trenutni zanr koji je presko?eni, onda tražimo idu?i žanr po prioritetu
+                    //
+                    if (film.ID_Zanr == trenutniZanrId && !preskoceniFilmovi.Contains(film.ID_Film))
+                    {
+                        //dodaje u objekt preporuceniFilmovi
+                        preporuceniFilmovi.Add(new { film.ID_Film, film.Adresa_url, film.Naziv, film.Datum_izdavanja });
+                    }
+                }
+                //ako postoji neki film u preporuceniFilmovi onda ulazi ovdje, ina?e u elseu ispod nastavlja na idu?i žanr
+                if (preporuceniFilmovi.Count > 0)
+                {
+                    //ovdje prikazuje u datagridviewu preporuceniFilmovi
+                    dgvPreporuke.DataSource = preporuceniFilmovi;
+                    //meni u ostatku koda trebaju ove vrijednosti pa ih ne prikazujem 
+                    if (dgvPreporuke.Columns["ID_Film"] != null) dgvPreporuke.Columns["ID_Film"].Visible = false;
+                    if (dgvPreporuke.Columns["Adresa_url"] != null) dgvPreporuke.Columns["Adresa_url"].Visible = false;
+                    return;
+                }
+                else
+                {
+                    // Nema filmova u ovom žanru, idi na sljede?i
+                    trenutniZanrIndex++;
+                }
+            }
+            dgvPreporuke.DataSource = null;
+            MessageBox.Show("Nema više preporu?enih filmova.");
+        }
+
+        private void btnNatrag_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var pocetnaForm = new formIndividualniKorisnikPocetna(OdabraniKorisnik);
+            pocetnaForm.ShowDialog();
+            this.Close();
+        }
+
+        private void btnGledaj_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            //otvara formu formfilm sa vrijednostima iz dgvPreporuke 
+            var formFilm = new formFilm(Convert.ToInt32(dgvPreporuke.SelectedRows[0].Cells["ID_Film"].Value.ToString()), dgvPreporuke.SelectedRows[0].Cells["Naziv"].Value.ToString(), dgvPreporuke.SelectedRows[0].Cells["Adresa_url"].Value.ToString(), OdabraniKorisnik);
+            formFilm.ShowDialog();
+            this.Close();
+        }
+
+        private void btnPreskoci_Click(object sender, EventArgs e)
+        {
+            //ovo briše sve filmove iz preporu?enih filmova i stavlja ih u presko?eneFilmove
+            foreach (DataGridViewRow row in dgvPreporuke.Rows)
+            {
+                if (row.DataBoundItem != null)
+                {
+                    int id = Convert.ToInt32(row.Cells["ID_Film"].Value);
+                    if (!preskoceniFilmovi.Contains(id))
+                    {
+                        preskoceniFilmovi.Add(id);
+                    }
+                }
+            }
+            PrikaziPreporukeZaTrenutniZanr();
+        }
+
+        // Omogućuje otvaranje dokumentacije pritiskom na F1
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.F1)
+            {
+                Help.ShowHelp(this, helpProvider1.HelpNamespace);
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+    }
+}

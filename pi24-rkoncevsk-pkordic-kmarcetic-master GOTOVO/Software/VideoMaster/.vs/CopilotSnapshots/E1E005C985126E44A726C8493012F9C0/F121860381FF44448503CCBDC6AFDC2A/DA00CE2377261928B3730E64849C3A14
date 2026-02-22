@@ -1,0 +1,170 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+
+namespace VideoMaster
+{
+    public partial class formPovijestGledanja : Form
+    {
+        private PI2324_02_DBEntities DB_Entities;
+        private Korisnik OdabraniKorisnik;
+
+        public formPovijestGledanja(Korisnik korisnik)
+        {
+            InitializeComponent();
+            DB_Entities = new PI2324_02_DBEntities();
+            OdabraniKorisnik = korisnik;
+            UcitajPovijest();
+            UcitajStatistiku();
+        }
+
+        private void UcitajPovijest()
+        {
+            var lista = new List<FilmInfo>();
+            foreach (var gleda in DB_Entities.Gleda)
+            {
+                if (gleda.ID_Korisnik == OdabraniKorisnik.ID_Korisnik)
+                {
+                    var info = new FilmInfo();
+
+                    if (gleda.Film != null)
+                    {
+                        info.ID_Film = gleda.Film.ID_Film;
+                        info.Naziv = gleda.Film.Naziv;
+                        if (gleda.Film.Zanr != null)
+                        {
+                            info.Zanr = gleda.Film.Zanr.Naziv;
+                        }
+                        else
+                        {
+                            info.Zanr = "";
+                        }
+                        info.Adresa_url = gleda.Film.Adresa_url;
+                        info.Trajanje = gleda.Film.Trajanje;
+                        if (gleda.Film.Redatelj != null)
+                        {
+                            info.Redatelj = gleda.Film.Redatelj.Ime + " " + gleda.Film.Redatelj.Prezime;
+                        }
+                        else
+                        {
+                            info.Redatelj = "";
+                        }
+                        if (gleda.Film.DobnoOgranicenje != null)
+                        {
+                            info.DobnoOgranicenje = gleda.Film.DobnoOgranicenje.Naziv;
+                        }
+                        else
+                        {
+                            info.DobnoOgranicenje = "";
+                        }
+                    }
+                    else
+                    {
+                        info.ID_Film = 0;
+                        info.Naziv = "";
+                        info.Zanr = "";
+                        info.Adresa_url = "";
+                        info.Trajanje = 0;
+                        info.Redatelj = "";
+                        info.DobnoOgranicenje = "";
+                    }
+                    if (gleda.Ocjena.HasValue)
+                    {
+                        info.ProsjecnaOcjena = gleda.Ocjena.Value;
+                    }
+                    else
+                    {
+                        info.ProsjecnaOcjena = 0;
+                    }
+                    info.Datum_izdavanja = gleda.Datum_gledanja;
+                    lista.Add(info);
+                }
+            }
+            dgvPovijest.DataSource = lista;
+        }
+
+        private class Brojac
+        {
+            public string Naziv { get; set; }
+            public int Broj { get; set; }
+        }
+
+        private void UcitajStatistiku()
+        {
+            string najzanr = "Nema podataka";
+            int maxZanr = 0;
+            var brojacZanrova = new List<Brojac>();
+
+            string najfilm = "Nema podataka";
+            int maxFilm = 0;
+            var brojacFilmova = new List<Brojac>();
+
+            foreach (var gleda in DB_Entities.Gleda)
+            {
+                if (gleda.ID_Korisnik == OdabraniKorisnik.ID_Korisnik)
+                {
+                    // Žanr
+                    if (gleda.Film != null && gleda.Film.Zanr != null)
+                    {
+                        string zanr = gleda.Film.Zanr.Naziv;
+                        bool found = false;
+                        foreach (var b in brojacZanrova)
+                        {
+                            if (b.Naziv == zanr)
+                            {
+                                b.Broj++;
+                                found = true;
+                                if (b.Broj > maxZanr)
+                                {
+                                    maxZanr = b.Broj;
+                                    najzanr = $"{zanr} ({maxZanr})";
+                                }
+                                break;
+                            }
+                        }
+                        if (!found)
+                        {
+                            brojacZanrova.Add(new Brojac { Naziv = zanr, Broj = 1 });
+                            if (1 > maxZanr)
+                            {
+                                maxZanr = 1;
+                                najzanr = $"{zanr} (1)";
+                            }
+                        }
+                    }
+                    // Film
+                    if (gleda.Film != null)
+                    {
+                        string film = gleda.Film.Naziv;
+                        bool found = false;
+                        foreach (var b in brojacFilmova)
+                        {
+                            if (b.Naziv == film)
+                            {
+                                b.Broj++;
+                                found = true;
+                                if (b.Broj > maxFilm)
+                                {
+                                    maxFilm = b.Broj;
+                                    najfilm = $"{film} ({maxFilm})";
+                                }
+                                break;
+                            }
+                        }
+                        if (!found)
+                        {
+                            brojacFilmova.Add(new Brojac { Naziv = film, Broj = 1 });
+                            if (1 > maxFilm)
+                            {
+                                maxFilm = 1;
+                                najfilm = $"{film} (1)";
+                            }
+                        }
+                    }
+                }
+            }
+            lblNajzanr.Text = $"Najgledaniji žanr: {najzanr}";
+            lblNajfilm.Text = $"Najgledaniji film: {najfilm}";
+        }
+    }
+}

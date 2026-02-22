@@ -1,0 +1,44 @@
+﻿using System;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace VideoMaster
+{
+    public partial class formPreporukaFilmova : Form
+    {
+        private PI2324_02_DBEntities DB_Entities;
+        private Korisnik OdabraniKorisnik;
+
+        public formPreporukaFilmova(Korisnik korisnik)
+        {
+            InitializeComponent();
+            DB_Entities = new PI2324_02_DBEntities();
+            OdabraniKorisnik = korisnik;
+            UcitajPreporuke();
+        }
+
+        private void UcitajPreporuke()
+        {
+            var najzanr = DB_Entities.Gleda
+                .Where(g => g.ID_Korisnik == OdabraniKorisnik.ID_Korisnik)
+                .GroupBy(g => g.Film.Zanr.ID_Zanr)
+                .OrderByDescending(gr => gr.Count())
+                .Select(gr => gr.Key)
+                .FirstOrDefault();
+
+            if (najzanr != 0)
+            {
+                var preporuceniFilmovi = DB_Entities.Film
+                    .Where(f => f.ID_Zanr == najzanr)
+                    .Select(f => new { f.Naziv, f.Datum_izdavanja, f.Redatelj.Ime, f.Redatelj.Prezime })
+                    .ToList();
+                dgvPreporuke.DataSource = preporuceniFilmovi;
+            }
+            else
+            {
+                dgvPreporuke.DataSource = null;
+                MessageBox.Show("Nema dovoljno podataka za preporuku.");
+            }
+        }
+    }
+}

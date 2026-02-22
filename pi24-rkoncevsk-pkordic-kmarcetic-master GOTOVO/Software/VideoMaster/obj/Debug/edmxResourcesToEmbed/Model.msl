@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PI2324_02_DBModelStoreContainer" CdmEntityContainer="PI2324_02_DBEntities">
+    <EntitySetMapping Name="DobnoOgranicenje">
+      <EntityTypeMapping TypeName="PI2324_02_DBModel.DobnoOgranicenje">
+        <MappingFragment StoreEntitySet="DobnoOgranicenje">
+          <ScalarProperty Name="ID_Dobno_ogranicenje" ColumnName="ID_Dobno_ogranicenje" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Film">
+      <EntityTypeMapping TypeName="PI2324_02_DBModel.Film">
+        <MappingFragment StoreEntitySet="Film">
+          <ScalarProperty Name="ID_Film" ColumnName="ID_Film" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Datum_izdavanja" ColumnName="Datum_izdavanja" />
+          <ScalarProperty Name="Trajanje" ColumnName="Trajanje" />
+          <ScalarProperty Name="Adresa_url" ColumnName="Adresa_url" />
+          <ScalarProperty Name="Thumbnail" ColumnName="Thumbnail" />
+          <ScalarProperty Name="ID_Redatelj" ColumnName="ID_Redatelj" />
+          <ScalarProperty Name="ID_Zanr" ColumnName="ID_Zanr" />
+          <ScalarProperty Name="ID_Dobno_ogranicenje" ColumnName="ID_Dobno_ogranicenje" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gleda">
+      <EntityTypeMapping TypeName="PI2324_02_DBModel.Gleda">
+        <MappingFragment StoreEntitySet="Gleda">
+          <ScalarProperty Name="ID_Gledanje" ColumnName="ID_Gledanje" />
+          <ScalarProperty Name="ID_Film" ColumnName="ID_Film" />
+          <ScalarProperty Name="ID_Korisnik" ColumnName="ID_Korisnik" />
+          <ScalarProperty Name="Datum_gledanja" ColumnName="Datum_gledanja" />
+          <ScalarProperty Name="Ocjena" ColumnName="Ocjena" />
+          <ScalarProperty Name="Komentar" ColumnName="Komentar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Glumac">
+      <EntityTypeMapping TypeName="PI2324_02_DBModel.Glumac">
+        <MappingFragment StoreEntitySet="Glumac">
+          <ScalarProperty Name="ID_Glumac" ColumnName="ID_Glumac" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Korisnik">
+      <EntityTypeMapping TypeName="PI2324_02_DBModel.Korisnik">
+        <MappingFragment StoreEntitySet="Korisnik">
+          <ScalarProperty Name="ID_Korisnik" ColumnName="ID_Korisnik" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+          <ScalarProperty Name="Nadimak" ColumnName="Nadimak" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Lozinka" ColumnName="Lozinka" />
+          <ScalarProperty Name="Datum_izrade_racuna" ColumnName="Datum_izrade_racuna" />
+          <ScalarProperty Name="Slika_profila" ColumnName="Slika_profila" />
+          <ScalarProperty Name="ID_Uloga" ColumnName="ID_Uloga" />
+          <ScalarProperty Name="ID_Roditeljska_zastita" ColumnName="ID_Roditeljska_zastita" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Novost">
+      <EntityTypeMapping TypeName="PI2324_02_DBModel.Novost">
+        <MappingFragment StoreEntitySet="Novost">
+          <ScalarProperty Name="ID_Novost" ColumnName="ID_Novost" />
+          <ScalarProperty Name="Naslov" ColumnName="Naslov" />
+          <ScalarProperty Name="Datum_novosti" ColumnName="Datum_novosti" />
+          <ScalarProperty Name="Opis" ColumnName="Opis" />
+          <ScalarProperty Name="Thumbnail" ColumnName="Thumbnail" />
+          <ScalarProperty Name="ID_Film" ColumnName="ID_Film" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Redatelj">
+      <EntityTypeMapping TypeName="PI2324_02_DBModel.Redatelj">
+        <MappingFragment StoreEntitySet="Redatelj">
+          <ScalarProperty Name="ID_Redatelj" ColumnName="ID_Redatelj" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RoditeljskaZastita">
+      <EntityTypeMapping TypeName="PI2324_02_DBModel.RoditeljskaZastita">
+        <MappingFragment StoreEntitySet="RoditeljskaZastita">
+          <ScalarProperty Name="ID_Roditeljska_zastita" ColumnName="ID_Roditeljska_zastita" />
+          <ScalarProperty Name="Ukljuceno" ColumnName="Ukljuceno" />
+          <ScalarProperty Name="Oznaka" ColumnName="Oznaka" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Uloga">
+      <EntityTypeMapping TypeName="PI2324_02_DBModel.Uloga">
+        <MappingFragment StoreEntitySet="Uloga">
+          <ScalarProperty Name="ID_Uloga" ColumnName="ID_Uloga" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Opis" ColumnName="Opis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zanr">
+      <EntityTypeMapping TypeName="PI2324_02_DBModel.Zanr">
+        <MappingFragment StoreEntitySet="Zanr">
+          <ScalarProperty Name="ID_Zanr" ColumnName="ID_Zanr" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Glumi" TypeName="PI2324_02_DBModel.Glumi" StoreEntitySet="Glumi">
+      <EndProperty Name="Film">
+        <ScalarProperty Name="ID_Film" ColumnName="ID_Film" />
+      </EndProperty>
+      <EndProperty Name="Glumac">
+        <ScalarProperty Name="ID_Glumac" ColumnName="ID_Glumac" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

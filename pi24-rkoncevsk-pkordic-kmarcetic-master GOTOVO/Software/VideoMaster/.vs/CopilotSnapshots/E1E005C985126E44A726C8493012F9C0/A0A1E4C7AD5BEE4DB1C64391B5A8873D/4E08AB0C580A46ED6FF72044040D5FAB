@@ -1,0 +1,66 @@
+﻿namespace VideoMaster
+{
+    partial class formPovijestGledanja
+    {
+        private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.DataGridView dgvPovijest;
+        private System.Windows.Forms.Label lblNajzanr;
+        private System.Windows.Forms.Label lblNajfilm;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        private void InitializeComponent()
+        {
+            this.dgvPovijest = new System.Windows.Forms.DataGridView();
+            this.lblNajzanr = new System.Windows.Forms.Label();
+            this.lblNajfilm = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPovijest)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dgvPovijest
+            // 
+            this.dgvPovijest.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPovijest.Location = new System.Drawing.Point(12, 12);
+            this.dgvPovijest.Name = "dgvPovijest";
+            this.dgvPovijest.Size = new System.Drawing.Size(560, 250);
+            this.dgvPovijest.TabIndex = 0;
+            // 
+            // lblNajzanr
+            // 
+            this.lblNajzanr.AutoSize = true;
+            this.lblNajzanr.Location = new System.Drawing.Point(12, 270);
+            this.lblNajzanr.Name = "lblNajzanr";
+            this.lblNajzanr.Size = new System.Drawing.Size(0, 13);
+            this.lblNajzanr.TabIndex = 1;
+            // 
+            // lblNajfilm
+            // 
+            this.lblNajfilm.AutoSize = true;
+            this.lblNajfilm.Location = new System.Drawing.Point(12, 290);
+            this.lblNajfilm.Name = "lblNajfilm";
+            this.lblNajfilm.Size = new System.Drawing.Size(0, 13);
+            this.lblNajfilm.TabIndex = 2;
+            // 
+            // formPovijestGledanja
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(584, 321);
+            this.Controls.Add(this.lblNajfilm);
+            this.Controls.Add(this.lblNajzanr);
+            this.Controls.Add(this.dgvPovijest);
+            this.Name = "formPovijestGledanja";
+            this.Text = "Povijest gledanja";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPovijest)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+    }
+}

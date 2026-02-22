@@ -1,0 +1,81 @@
+﻿using System;
+using System.Linq;
+using System.Windows.Forms;
+using System.Collections.Generic;
+
+namespace VideoMaster
+{
+    public partial class formPreporukaFilmova : Form
+    {
+        private PI2324_02_DBEntities DB_Entities;
+        private Korisnik OdabraniKorisnik;
+
+        public formPreporukaFilmova(Korisnik korisnik)
+        {
+            InitializeComponent();
+            DB_Entities = new PI2324_02_DBEntities();
+            OdabraniKorisnik = korisnik;
+            UcitajPreporuke();
+        }
+
+        private void UcitajPreporuke()
+        {
+            // Brojanje žanrova pomoću dvije paralelne liste
+            List<int> zanrovi = new List<int>();
+            List<int> brojevi = new List<int>();
+
+            foreach (var gleda in DB_Entities.Gleda)
+            {
+                if (gleda.ID_Korisnik == OdabraniKorisnik.ID_Korisnik && gleda.Film != null && gleda.Film.Zanr != null)
+                {
+                    int idZanr = gleda.Film.ID_Zanr;
+                    int index = zanrovi.IndexOf(idZanr);
+                    if (index >= 0)
+                    {
+                        brojevi[index]++;
+                    }
+                    else
+                    {
+                        zanrovi.Add(idZanr);
+                        brojevi.Add(1);
+                    }
+                }
+            }
+
+            // Pronađi najzastupljeniji žanr
+            int najzanrId = 0;
+            int maxBroj = 0;
+            for (int i = 0; i < zanrovi.Count; i++)
+            {
+                if (brojevi[i] > maxBroj)
+                {
+                    maxBroj = brojevi[i];
+                    najzanrId = zanrovi[i];
+                }
+            }
+
+            if (najzanrId != 0)
+            {
+                List<object> preporuceniFilmovi = new List<object>();
+                foreach (var film in DB_Entities.Film)
+                {
+                    if (film.ID_Zanr == najzanrId)
+                    {
+                        preporuceniFilmovi.Add(new { film.Naziv, film.Datum_izdavanja });
+                    }
+                }
+                dgvPreporuke.DataSource = preporuceniFilmovi;
+            }
+            else
+            {
+                dgvPreporuke.DataSource = null;
+                MessageBox.Show("Nema dovoljno podataka za preporuku.");
+            }
+        }
+
+        private void btnNatrag_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
